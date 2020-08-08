@@ -1,8 +1,4 @@
 dotfiles
 ========
 
-TODO's
-------
-* Script to create symlinks.
-* Add dotfiles from Atom.
-* Add dotfiles from Git.
+My personal dotfiles, mostly used to automate setting up new enviroments to work or personal use.
