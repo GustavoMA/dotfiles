@@ -4,5 +4,3 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install -y firefox 7zip vlc qbittorrent spotify discord sumatrapdf veracrypt steam
 # Install development related softwares
 choco install -y microsoft-windows-terminal vscode
-# Unfortunately we need to restart to install WSL 
-Restart-Computers
