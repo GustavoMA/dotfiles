@@ -15,6 +15,10 @@ Next step is to install `WSL2` and the lastest WSL Ubuntu. Reference: https://do
 
 Download this [hosts](https://someonewhocares.org/hosts/zero/hosts) file and use it. TODO automate this in setup script.
 
+Remove useless `One Drive` by uninstalling it in `Programs and Features`. 
+
+Disable [Internet Explorer](https://www.lifewire.com/how-to-uninstall-or-remove-internet-explorer-2617982)
+
 korra specific notes
 --------------------
 
