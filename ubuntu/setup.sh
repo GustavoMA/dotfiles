@@ -2,6 +2,7 @@
 
 # Create dotfiles symlinks
 ln -s $(pwd)/.gitconfig ~/.gitconfig
+ln -s $(pwd)/.zshrc ~/.zshrc
 
 # Installing zsh and ohmyzsh
 sudo apt -y install zsh
