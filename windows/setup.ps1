@@ -5,7 +5,7 @@ choco install -y firefox 7zip vlc qbittorrent spotify discord sumatrapdf bitward
 # TODO use this guy
 # choco install -y veracrypt
 # Install development related softwares
-choco install -y microsoft-windows-terminal vscode
+choco install -y microsoft-windows-terminal vscode firacode
 # Install korra (my gaming/personal pc) specific software
 choco install -y icue calibre google-backup-and-sync steam epicgameslauncher
 # Install work specific software
