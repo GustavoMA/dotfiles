@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update && sudo apt upgrade -y
 
 # Installing zsh and ohmyzsh
 sudo apt -y install zsh
