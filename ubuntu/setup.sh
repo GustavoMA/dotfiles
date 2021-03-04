@@ -11,3 +11,6 @@ ln -s $(pwd)/.zshrc ~/.zshrc
 
 # Create dotfiles symlinks
 ln -s $(pwd)/.gitconfig ~/.gitconfig
+
+# To play around with redis
+sudo apt -y install redis-tools
