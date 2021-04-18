@@ -15,6 +15,9 @@ ln -s $(pwd)/.gitconfig ~/.gitconfig
 # To play around with redis
 sudo apt -y install redis-tools
 
+# To play around with rust
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
 # Install dotnet
 # https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2004
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
