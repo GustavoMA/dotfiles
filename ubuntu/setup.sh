@@ -28,3 +28,12 @@ sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-3.1 dotnet-sdk-5.0
+
+# Install node
+# - nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+# Probably need to refresh bash here. Think how to automate
+# - node
+nvm install node
+# - yarn
+npm install --global yarn
