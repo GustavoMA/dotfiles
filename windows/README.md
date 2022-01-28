@@ -24,3 +24,4 @@ korra specific notes
 
 * Install [Logitech G hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
 * Install [Radeon](https://www.amd.com/en/support)
+* Install [Drive for Desktop](https://www.google.com/drive/download/)
