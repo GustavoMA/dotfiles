@@ -128,3 +128,6 @@ if [[ -z "$XDG_RUNTIME_DIR" ]]; then
     fi
   fi
 fi
+
+alias docker=podman
+alias docker-compose=podman-compose
