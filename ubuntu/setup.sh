@@ -15,3 +15,10 @@ ln -s $(pwd)/.gitconfig ~/.gitconfig
 
 # To play around with redis
 sudo apt -y install redis-tools
+
+# To pip
+sudo apt -y install python3-pip
+pip install awscli-local
+
+# To play around with pulumi
+curl -fsSL https://get.pulumi.com | sh
