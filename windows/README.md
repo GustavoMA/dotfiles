@@ -11,11 +11,17 @@ Set-ExecutionPolicy RemoteSigned
 
 Then run `setup.ps1` and restart your computer when it finishes.
 
-Next step is to install `WSL2` and the lastest WSL Ubuntu. Reference: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-Download this [hosts](https://someonewhocares.org/hosts/zero/hosts) file and use it. TODO automate this in setup script.
+Download this [hosts](https://someonewhocares.org/hosts/zero/hosts) file and use it.
 
-Run [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+Run [BloatyNosy](https://github.com/builtbybel/BloatyNosy)
+
+Create the following functions at Powershell profile. `code $profile` 
+
+```
+function upgrade { choco "upgrade" "all" "-y" }
+```
 
 korra specific notes
 --------------------
