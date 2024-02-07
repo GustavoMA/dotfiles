@@ -6,7 +6,7 @@ To run `setup.ps1` in your new windows machine you need to change the script exe
 Run the following line in powershell with admin rights:
 
 ```
-Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy RemoteSigned -Scope Process
 ```
 
 Then run `setup.ps1` and restart your computer when it finishes.
